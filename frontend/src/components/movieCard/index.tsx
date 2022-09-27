@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 import { ReactComponent as StarFull } from '../../assets/fullStar.svg';
 import { ReactComponent as StarHalf } from '../../assets/halfStar.svg';
 import { ReactComponent as StarEmpty } from '../../assets/emptyStar.svg';
@@ -12,7 +14,7 @@ const movie = {
     title: "The Witcher",
     count: 2,
     score: 4.5
-};   
+};
 
 
 export default function MovieCard() {
@@ -22,7 +24,10 @@ export default function MovieCard() {
             <div className="dsmovie-card-bottom-container">
                 <h3>{movie.title}</h3>
                 <MovieScore />
-                <div className="btn btn-primary dsmovie-btn">Avaliar</div>
+
+                <Link to={`/form/${movie.id}`} >
+                    <div className="btn btn-primary dsmovie-btn">Avaliar</div>
+                </Link>
             </div>
         </div>
     )
