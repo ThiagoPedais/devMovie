@@ -8,10 +8,10 @@ export default function Navbar() {
             <nav className='container'>
                 <div className='dsmovie-nav-content'>
                     <h1>DevMovie</h1>
-                    <a href='https://github.com/devsuperior'>
+                    <a href='https://github.com/ThiagoPedais/devMovie'>
                         <div className="dsmovie-contact-container">
                             <GitHubIcon />
-                            <p className="dsmovie-contact-link">/devsuperior</p>
+                            <p className="dsmovie-contact-link">/ThiagoPedais</p>
                         </div>
                     </a>
                 </div>
