@@ -1,13 +1,12 @@
 import { useState } from 'react';
 import './App.css'
 import Navbar from './components/navbar';
+import Routes from './Routes';
 
-function App() { 
+function App() {
 
   return (
-    <div>
-      <Navbar />
-    </div>
+    <Routes />
   );
 };
 
