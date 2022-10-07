@@ -1,13 +1,11 @@
 package com.devsuperior.devmovie.entities;
 
 import java.io.Serializable;
+import java.util.HashSet;
 import java.util.Objects;
+import java.util.Set;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @Entity
 @Table(name = "tb_movie")
@@ -22,6 +20,9 @@ public class Movie implements Serializable{
 	private Double score;
 	private Integer count;
 	private String image;
+
+	@OneToMany(mappedBy = "movie")
+	private Set<Score> scores = new HashSet<>();
 	
 	public Movie() {
 		
@@ -74,6 +75,11 @@ public class Movie implements Serializable{
 	public void setImage(String image) {
 		this.image = image;
 	}
+
+	public Set<Score> getScores() {
+		return scores;
+	}
+
 
 	@Override
 	public int hashCode() {

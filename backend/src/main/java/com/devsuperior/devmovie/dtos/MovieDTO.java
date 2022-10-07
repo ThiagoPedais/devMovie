@@ -47,4 +47,24 @@ public class MovieDTO {
     public String getImage() {
         return image;
     }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public void setScore(Double score) {
+        this.score = score;
+    }
+
+    public void setCount(Integer count) {
+        this.count = count;
+    }
+
+    public void setImage(String image) {
+        this.image = image;
+    }
 }
