@@ -1,10 +1,17 @@
-import React from 'react'
-import MovieCard from '../../components/movieCard'
-import MovieScore from '../../components/movieScore'
-import MovieStars from '../../components/movieStars'
-import Pagination from '../../components/pagination'
+import axios from 'axios';
+import MovieCard from '../../components/movieCard';
+
+import Pagination from '../../components/pagination';
+import { BASE_URL } from '../../utils/requests';
 
 export default function Listing() {
+
+  axios.get(`${BASE_URL}/movies`)
+  .then(res => {
+    console.log(res.data);
+  });
+
+
   return (
     <>
       <Pagination />
