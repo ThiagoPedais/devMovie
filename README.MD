@@ -227,18 +227,7 @@ git subtree push --prefix backend heroku main
   - Deploys -> Trigger deploy
 
 
-# ![DevSuperior logo](https://raw.githubusercontent.com/devsuperior/bds-assets/main/ds/devsuperior-logo-small.png) Semana Spring React - Episódio 3
->  *Crie um app completo para seu portfólio com as tecnologias mais demandadas do mercado*
 
-## TRILHA PROFISSIONALIZANTE
-
-## Realização
-[DevSuperior - Escola de programação](https://devsuperior.com.br)
-
-[![DevSuperior no Instagram](https://raw.githubusercontent.com/devsuperior/bds-assets/main/ds/ig-icon.png)](https://instagram.com/devsuperior.ig)
-[![DevSuperior no Youtube](https://raw.githubusercontent.com/devsuperior/bds-assets/main/ds/yt-icon.png)](https://youtube.com/devsuperior)
-
-## Objetivos do projeto para esta aula
 - Integrar back end e front end
 - Três pilares do React
   - Componentes
@@ -249,12 +238,6 @@ git subtree push --prefix backend heroku main
   - useEffect
   - useParams
   - useNavigate
-
-## AVISO: as aulas ficarão disponíveis somente até domingo às 23h59
-
-## AVISO: Instruções sobre certificado no Github do [aqui](https://github.com/devsuperior/sds-dsmovie/tree/main/_certificado)
-
-### Passo: Primeira requisição
 
 - Instalar Axios
 ```bash
@@ -280,7 +263,6 @@ Hook: useEffect
 Executar algo na instanciação ou destruição do componente, observar estado
 ```
 
-- **COMMIT: useState, useEffect**
 
 ### Passo: Props
 
