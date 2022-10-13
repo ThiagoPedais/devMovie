@@ -38,10 +38,6 @@ IMPORTANTE: deletar subpasta .git
 
 ### Passo: salvar primeira versão no Github
 
-configuração ainda seu Github:
-
-[![Image](https://img.youtube.com/vi/_hZf1teRFNg/mqdefault.jpg "Vídeo no Youtube")](https://youtu.be/_hZf1teRFNg)
-
 ```bash
 git init
 
